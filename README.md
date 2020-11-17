@@ -71,6 +71,38 @@ npm run lint:fix
 npm test
 ```
 
+## Set of commands used
+
+To initialize the workspace we need to work with:
+
+```
+lb4 note
+```
+
+To build the model - This step consists of building the schema of our database [essentially the columns of our database]
+
+```
+lb4 model
+```
+
+To create a datasource - We choose an in-memory database
+
+```
+lb4 datasource
+```
+
+To create/generate a repository for 'note'
+
+```
+lb4 repository
+```
+
+To initialize a controller - this will decide whether we use a REST controller with CRUD functions or something of our own
+
+```
+lb4 controller
+```
+
 ## What's next
 
 Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
